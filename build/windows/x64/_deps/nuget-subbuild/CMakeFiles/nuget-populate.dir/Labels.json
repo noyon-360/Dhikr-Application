@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/32e253c1b40332d1db4e6a191d44b309/nuget-populate.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/cbf18d41649b61f78ce5598795ae26a4/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-build.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-download.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-install.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-test.rule"
+		},
+		{
+			"file" : "F:/FlutterDev/dhikrs/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/7373d82af828d3adfd843ad4cbd1a1ee/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}
