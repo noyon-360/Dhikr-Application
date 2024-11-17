@@ -1,3 +1,4 @@
+name: "Build & Release"
 on:
   pull_request:
     branches:
@@ -8,7 +9,7 @@ on:
       - main
       - master
       - develop
-name: "Build & Release"
+
 jobs:
   build:
     name: Build & Release
@@ -18,17 +19,25 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '12'
+          java-version: '11'
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
           architecture: x64
 
-      - name: Install Dependencies
+      - name: Install Dependencies for Windows
+        run: |
+          choco install visualstudio2022buildtools visualstudio2022-workload-vctools -y
+          flutter doctor
+
+      - name: Install Flutter Dependencies
         run: flutter pub get
 
       - name: Build Windows App
-        run: flutter build windows --release
+        run: flutter build windows --release --verbose
+
+      - name: Verify Build Artifacts
+        run: ls build/windows/runner/Release
 
       - name: Upload Windows Artifact
         uses: actions/upload-artifact@v3
@@ -42,11 +51,3 @@ jobs:
           artifacts: "build/windows/runner/Release/*.exe"
           tag: v1.0.${{ github.run_number }}
           token: ${{ secrets.TOKEN }}
-
-
-
-
-
-
-# push to master, main, develop
-# pull request on main master
